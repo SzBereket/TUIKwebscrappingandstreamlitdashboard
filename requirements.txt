@@ -1,5 +1,7 @@
 streamlit
 pandas
+xlrd>=2.0.1        # .xls için gerekir
+openpyxl>=3.1.0    # .xlsx için gerekir
 requests
 beautifulsoup4
 altair
