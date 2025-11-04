@@ -1106,7 +1106,7 @@ def main() -> None:
 
     st.sidebar.header("Filtreler")
     selected_provinces = st.sidebar.multiselect(
-        "Karşılaştırılacak iller",
+        "İl seçin",
         options=province_options,
         default=preselected,
     )
